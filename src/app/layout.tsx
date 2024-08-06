@@ -6,8 +6,8 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Next Starter',
-  description: 'A simple starter to get up and developing quickly with Next',
+  title: 'NextJS Starter',
+  description: 'A simple starter to get up and developing quickly with NextJS',
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
