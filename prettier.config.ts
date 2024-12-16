@@ -1,9 +1,10 @@
-/** @type {import('prettier').Config} */
-const config = {
+import type { Config } from 'prettier'
+
+const config: Config = {
   semi: false,
   singleQuote: true,
   jsxSingleQuote: false,
   plugins: ['prettier-plugin-tailwindcss'],
 }
 
-module.exports = config
+export default config
