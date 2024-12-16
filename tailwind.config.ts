@@ -1,6 +1,11 @@
+import aspectRatio from '@tailwindcss/aspect-ratio'
+import containerQueries from '@tailwindcss/container-queries'
+import forms from '@tailwindcss/forms'
+import typography from '@tailwindcss/typography'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  mode: 'jit',
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {},
@@ -8,13 +13,7 @@ const config: Config = {
   corePlugins: {
     aspectRatio: false,
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/container-queries'),
-  ],
-  mode: 'jit',
+  plugins: [forms, typography, aspectRatio, containerQueries],
 }
 
 export default config
