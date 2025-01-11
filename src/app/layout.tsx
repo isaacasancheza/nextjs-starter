@@ -12,8 +12,8 @@ interface Layout {
 
 export default function Layout({ children }: Layout) {
   return (
-    <html lang="es-MX">
-      <body>
+    <html lang="es-MX" className="h-full">
+      <body className="h-full">
         <main>{children}</main>
       </body>
     </html>
