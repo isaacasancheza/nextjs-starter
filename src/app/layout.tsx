@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   description: 'A simple starter to get up and developing quickly with NextJS',
 }
 
-interface RootLayout {
+interface RootLayoutProps {
   children: ReactNode
 }
 
-export default function RootLayout({ children }: RootLayout) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es-MX" className="h-full">
       <body className="h-full">
