@@ -1,3 +1,19 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib"
+  "files.exclude": {
+    "**/.next/": true,
+    "**/.vercel/": true,
+    "next-env.d.ts": true,
+    "**/node_modules/": true,
+    "**/certificates/": true,
+    "**/*.tsbuildinfo": true
+  },
+  "search.exclude": {
+    "**/.next/": true,
+    "**/.vercel/": true,
+    "next-env.d.ts": true,
+    "**/node_modules/": true,
+    "**/certificates/": true,
+    "**/*.tsbuildinfo": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
