@@ -12,7 +12,7 @@ interface LayoutProps {
   children: ReactNode
 }
 
-export default function RootLayout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   return (
     <html lang="es-MX" className="h-full">
       <body className="h-full">
