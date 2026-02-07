@@ -15,9 +15,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <html lang="es-MX" className="h-full">
-      <body className="h-full">
-        <main>{children}</main>
-      </body>
+      <body className="h-full">{children}</body>
     </html>
   )
 }
