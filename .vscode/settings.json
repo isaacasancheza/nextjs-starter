@@ -1,5 +1,6 @@
 {
   "files.exclude": {
+    "**/dist/": true,
     "**/.next/": true,
     "**/.vercel/": true,
     "next-env.d.ts": true,
@@ -8,6 +9,7 @@
     "**/*.tsbuildinfo": true
   },
   "search.exclude": {
+    "**/dist/": true,
     "**/.next/": true,
     "**/.vercel/": true,
     "next-env.d.ts": true,
